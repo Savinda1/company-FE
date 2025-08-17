@@ -3,7 +3,7 @@ import { Button } from './ui/button'
 import event from '@/assets/hero/event1.avif'
 import news from '@/assets/hero/news1.png'
 import attendance from '@/assets/hero/atencheck.png'
-import self_s from '@/assets/hero/Study1.jpg'
+import self_s from '@/assets/hero/study1.jpg'
 import kizaen from '@/assets/hero/kizan1.png'
 import sop from '@/assets/hero/sop1.webp'
 import { Link } from "react-router";
