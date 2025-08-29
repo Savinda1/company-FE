@@ -43,10 +43,12 @@ export default function Stackholderlistting() {
   </div>
     <div className="p-5">
       <h3 className="text-2xl font-bold text-gray-800">Company News</h3>
-      
+      <Link to="/news" className="text-blue-500 hover:underline mt-2 block">
+
        <Button className="mt-4 px-5 py-2 bg-blue-600 text-white rounded-xl text-sm hover:bg-blue-700 transition">
         Read More
       </Button>
+      </Link>
     </div>
     </div>
   
@@ -62,10 +64,12 @@ export default function Stackholderlistting() {
   </div>
     <div className="p-5">
       <h3 className="text-2xl font-bold text-gray-800">Self-Study</h3>
-      
+            <Link to="/selfstudy" className="text-blue-500 hover:underline mt-2 block">
+
        <Button className="mt-4 px-5 py-2 bg-blue-600 text-white rounded-xl text-sm hover:bg-blue-700 transition">
         Learn More
       </Button>
+      </Link>
     </div>
   </div>
 
@@ -79,9 +83,12 @@ export default function Stackholderlistting() {
   </div>
   <div className="p-5">
     <h3 className="text-2xl font-bold text-gray-800">Kaizen</h3>
+                <Link to="/Kaizan" className="text-blue-500 hover:underline mt-2 block">
+
   <Button className="mt-4 px-5 py-2 bg-blue-600 text-white rounded-xl text-sm hover:bg-blue-700 transition">
        Uplode Your Kaizen
       </Button>
+      </Link>
     </div>
 </div>
 
@@ -96,9 +103,11 @@ export default function Stackholderlistting() {
   </div>
   <div className="p-5">
     <h3 className="text-2xl font-bold text-gray-800">SOP and STW Learning</h3>
+    <Link to="/Sop" className="text-blue-500 hover:underline mt-2 block">
     <Button className="mt-4 px-5 py-2 bg-blue-600 text-white rounded-xl text-sm hover:bg-blue-700 transition">
         Understading SOP
       </Button>
+      </Link>
     </div>
 </div>
 
@@ -112,9 +121,11 @@ export default function Stackholderlistting() {
   </div>
   <div className="p-5">
     <h3 className="text-2xl font-bold text-gray-800">Event</h3>
-   <Button className="mt-4 px-5 py-2 bg-blue-600 text-white rounded-xl text-sm hover:bg-blue-700 transition">
+    <Link to="/Event" className="text-blue-500 hover:underline mt-2 block">
+    <Button className="mt-4 px-5 py-2 bg-blue-600 text-white rounded-xl text-sm hover:bg-blue-700 transition">
         View Events
-      </Button>
+      </Button></Link>
+   
     </div>
 </div>
 

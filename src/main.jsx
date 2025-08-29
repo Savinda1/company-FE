@@ -10,6 +10,11 @@ import HomePage from './pages/home.page'
 import AttendancePage from './pages/attendance.page';
 import SignInPage from './pages/Sign.page';
 import SignUpPage from './pages/SignUp.page';
+import News from './pages/news.page';
+import Study from './pages/selfstudy.page';
+import Kaizan from './pages/Kaizen.page';
+import Sop from './pages/Sop.page';
+import Event from './pages/Event.page';
 import { store } from "./lib/api/store";
 import { Provider } from "react-redux";
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
@@ -30,6 +35,12 @@ createRoot(document.getElementById('root')).render(
       <Route path="/attendance" element={<AttendancePage />} />
       <Route path="/sign-in" element={<SignInPage />} />
       <Route path="/sign-up" element={<SignUpPage />} />
+      <Route path="/news" element={<News />} />
+      <Route path="/selfstudy" element={<Study />} />
+      <Route path="/Kaizan" element={<Kaizan />} />
+      <Route path="/Sop" element={<Sop />} />
+      <Route path="/Event" element={<Event />} />
+      
 </Route>
      </Routes>
 </BrowserRouter>

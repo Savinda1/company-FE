@@ -9,7 +9,9 @@ function Footer() {
         
         {/* Brand */}
         <div>
-          <h2 className="text-3xl font-extrabold text-yellow-400">Horizone</h2>
+          <p className="text-3xl font-extrabold bg-gradient-to-r from-blue-50 via-blue to-yellow-300 bg-clip-text text-transparent drop-shadow-lg">
+          @amiladev
+        </p>
           <p className="text-sm text-white/80 mt-2">
             Discover unforgettable stays and experiences tailored just for you.
           </p>
